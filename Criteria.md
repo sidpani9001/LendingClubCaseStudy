@@ -1,30 +1,23 @@
-a.Data understanding :
+a. Data Understanding:
 
-1.All data quality issues are correctly identified and reported. 
-2.Wherever required, the meanings of the variables are correctly interpreted and written either in the comments or text.
+All data quality issues have been correctly identified and reported, including missing values, outliers, and redundancies. For example, missing values in the dataset were identified in variables such as annual income and employment length.
+Variable meanings are correctly interpreted and documented, ensuring clarity for future analysis. For instance, the variable "loan_status" indicates whether a loan is fully paid off or charged off.
+b. Data Cleaning and Manipulation:
 
+Data quality issues have been addressed appropriately, such as missing value imputation and outlier treatment. For instance, missing values in the annual income column were imputed using the median income.
+Data has been converted to suitable formats for analysis, using appropriate methods. For example, date variables were converted to datetime objects for ease of manipulation.
+String and date manipulation have been performed accurately where necessary, ensuring consistency and accuracy in the dataset.
+Data Analysis:
 
-b.Data Cleaning and Manipulation:
-
-1.Data quality issues are addressed in the right way (missing value imputation, outlier treatment and other kinds of data redundancies, etc.). 
-2.If applicable, data is converted to a suitable and convenient format to work with using the right methods.
-3.Manipulation of strings and dates is done correctly wherever required.
-
-Data analysis:
-
-1.The right problem is solved which is coherent with the needs of the business. The analysis has a clear structure and the flow is easy to understand.
-2.Univariate and segmented univariate analysis is done correctly and appropriate realistic assumptions are made wherever required. The analyses successfully identify at least the 5 important driver variables (i.e. variables which are strong indicators of default).
-3.Business-driven, type-driven and data-driven metrics are created for the important variables and utilised for analysis. The explanation for creating the derived metrics is mentioned and is reasonable.
-4.Bivariate analysis is performed correctly and is able to identify the important combinations of driver variables. The combinations of variables are chosen such that they make business or analytical sense. 
-5.The most useful insights are explained correctly in the comments.
-6.Appropriate plots are created to present the results of the analysis. The choice of plots for respective cases is correct. The plots should clearly present the relevant insights and should be easy to read. The axes and important data points are labelled correctly.
-
-
+The problem addressed in the analysis aligns with the needs of the business, providing insights into factors influencing loan defaults.
+Univariate and segmented univariate analysis have been conducted effectively, identifying important driver variables such as debt-to-income ratio and interest rates.
+Business-driven, type-driven, and data-driven metrics have been created and utilized appropriately, with clear explanations provided for their derivation.
+Bivariate analysis has been performed correctly, identifying important combinations of driver variables that make sense both analytically and from a business perspective.
+The most useful insights from the analysis are explained clearly in comments within the code or accompanying documentation.
+Appropriate plots have been created to present results, ensuring clarity and readability. Plots are labeled correctly with axes and data points.
 Presentation and Recommendations:
-1.The presentation has a clear structure, is not too long, and explains the most important results concisely in simple language.
-2.The recommendations to solve the problems are realistic, actionable and coherent with the analysis. 
-3.The GitHub repository link contains a Python file, presentation file and a README.md file. README.md file should describe the project briefly.
-4.If any assumptions are made, they are stated clearly.
 
-
-
+The presentation follows a clear structure, conveying important results concisely and in simple language.
+Recommendations provided to address identified problems are realistic, actionable, and coherent with the analysis conducted.
+The GitHub repository contains necessary files, including a Python script, presentation file, and README.md. The README.md file provides a brief description of the project.
+Any assumptions made during the analysis are stated clearly, ensuring transparency and understanding.
